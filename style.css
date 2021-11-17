@@ -1,0 +1,257 @@
+/* Custom CSS from montclair.wordcamp.org */
+#wccsp-container > .wccsp-container {
+	background: #ffffff;
+	margin-top: 50%;
+	padding-bottom: 20px;
+}
+
+.wccsp-image img {
+	width: 150px;
+}
+
+.jetpack_subscription_widget button {
+	white-space: nowrap;
+}
+
+body.custom-background {
+	background-position: center 100px;
+}
+
+#site-header {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.admin-bar #site-header {
+	top: 32px;
+}
+
+#site-content {
+	background: rgba(255,255,255,0.98);
+	margin-top: 38%;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (max-width: 375px) {
+	#site-content {
+		margin-top: 50%;
+	}
+
+	.header-inner {
+		padding: 2.15rem 0;
+	}
+}
+
+@media (max-width: 599px) {
+	#tix-attendees .tix-columns-2 li {
+		width: 100%;
+	}
+}
+
+.entry-content > .alignwide {
+	max-width: 900px;
+}
+
+.site-description,
+.to-the-top,
+.entry-categories,
+.post-meta {
+	display: none;
+}
+
+ul.social-menu li:last-child svg {
+	color: transparent;
+	background-image: url('https://2020.montclair.wordcamp.org/files/2019/12/slack.png');
+	background-size: 20px;
+	background-position: center center;
+}
+
+body:not(.overlay-header) .primary-menu > li > a, body:not(.overlay-header) .primary-menu > li > .icon, .modal-menu a, .footer-menu a, .footer-widgets a, #site-footer .wp-block-button.is-style-outline, .wp-block-pullquote:before, .singular:not(.overlay-header) .entry-header a, .archive-header a, .header-footer-group .color-accent, .header-footer-group .color-accent-hover:hover,
+.color-accent, .color-accent-hover:hover, .color-accent-hover:focus, :root .has-accent-color, .has-drop-cap:not(:focus):first-letter, .wp-block-button.is-style-outline, a {
+	color: #C44122;
+}
+
+.milestone-header,
+button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-file .wp-block-file__button, input[type="button"], input[type="reset"], input[type="submit"], .bg-accent, .bg-accent-hover:hover, .bg-accent-hover:focus, :root .has-accent-background-color, .comment-reply-link,
+.social-icons a, #site-footer button:not(.toggle), #site-footer .button, #site-footer .faux-button, #site-footer .wp-block-button__link, #site-footer .wp-block-file__button, #site-footer input[type="button"], #site-footer input[type="reset"], #site-footer input[type="submit"] {
+	background-color: #C44122;
+}
+
+.singular .entry-header {
+	background: transparent;
+}
+
+.avatar {
+	float: left;
+	margin: 0 15px 5px 0;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+.wp-block-table table,
+.margin-zero-auto {
+	margin: 0 auto !important;
+}
+
+.wp-block-columns.margin-zero-auto h4 {
+	margin-top: 55px;
+}
+
+@media (min-width: 700px) {
+	.singular .entry-header {
+		padding: 8rem 0 0;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.contact-form input[type=email], .contact-form input[type=tel], .contact-form input[type=text], .contact-form input[type=url] {
+		width: 100%;
+	}
+}
+
+#tix-attendees .avatar {
+	height: 70px;
+	width: 70px;
+	padding: 0;
+}
+
+#tix-attendees .tix-attendee-name {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#site-content {
+	border-top: 10px solid #CC5A40;
+	border-bottom: 10px solid #476E6E;
+	padding-bottom: 50px;
+}
+
+.page-id-149 .wp-block-columns {
+	border-top: 10px solid #CC5A40;
+}
+
+.primary-menu > li:last-child a {
+	background: #CC5A40;
+	color: #ffffff !important;
+	padding: 10px 20px 10px 45px;
+	border-radius: 10px;
+	margin-top: -10px;
+	position: relative;
+}
+
+.primary-menu > li:last-child::before {
+	content: "\f486";
+	font-family: dashicons;
+	position: absolute;
+	z-index: 1;
+	left: 20px;
+	color: #ffffff;
+}
+
+.grunion-field-wrap {
+	background-color: #eee;
+	padding: 10px 20px;
+}
+
+@media (min-width: 700px) {
+	.footer-widgets .widget:first-child {
+		margin-top: 0;
+	}
+}
+
+.tix-first, .tix-last {
+	font-size: 18px;
+	font-family: "Helvetica, Arial, san-serif" !important;
+}
+
+.tix-what-is-your-twitter-handle:before {
+	font-family: "dashicons";
+	content: "\f301";
+	font-size: 16px;
+	position: relative;
+	top: 2px;
+}
+
+.tix-what-is-your-website:before {
+	font-family: "dashicons";
+	content: "\f103";
+	font-size: 16px;
+	position: relative;
+	top: 2px;
+}
+
+.tix-what-is-your-twitter-handle {
+	font-family: "Helvetica, Arial, san-serif" !important;
+	font-size: 11px !important;
+}
+
+.tix-what-is-your-website {
+	font-family: "Helvetica, Arial, san-serif" !important;
+	font-size: 11px !important;
+}
+
+#tix-attendees ul.tix-attendee-list.tix-columns-2 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#tix-attendees ul.tix-attendee-list > li {
+	float: none;
+	margin: auto;
+	height: auto;
+}
+
+.tix-attendee-list li {
+	margin: 0;
+	padding: 20px 10px 20px 0;
+	border-top: 1px dotted #ccc;
+}
+
+.wordcamp-post-list {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.wordcamp-post-list.wordcamp-sponsors .wordcamp-post-list__post {
+	margin: 0;
+	padding: 15px;
+	background-color: #efefef;
+	display: grid;
+	align-content: center;
+}
+
+.singular .featured-media-inner {
+	left: auto;
+	width: auto;
+}
+
+.contact-submit {
+	margin-top: 15px;
+}
+
+.primary-menu > li > .icon {
+	top: 6px;
+}
+
+img.wordcamp-image__featured-image {
+	margin: 0 auto;
+}
+
+@media (min-width: 700px) {
+	body:not(.singular) main > article:first-of-type {
+		padding: 4rem 0 0;
+	}
+
+	.post-inner {
+		padding-top: 1rem;
+	}
+
+	.entry-content h1, .entry-content h2, .entry-content h3 {
+		margin: 3rem auto;
+	}
+}
