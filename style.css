@@ -242,11 +242,6 @@ img.wordcamp-image__featured-image {
 	margin: 0 auto;
 }
 
-.wccsp-container {
-	background: #ffffff;
-	padding: 50px;
-}
-
 @media (min-width: 700px) {
 	body:not(.singular) main > article:first-of-type {
 		padding: 4rem 0 0;
