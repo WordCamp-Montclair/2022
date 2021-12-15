@@ -9,6 +9,31 @@
 	width: 150px;
 }
 
+/* Adjust styling coming soon page sueneu */
+.wccsp-header {
+    background: linear-gradient( 
+45deg, #486e6f, #569799 );
+}
+
+.wccsp-header button, input[type="submit"] {
+    background: #aa6456;
+    border-color: #664038;
+	height: auto;
+}
+
+.wccsp-introduction {
+    margin-bottom: 75px;
+    padding: 75px 10px;
+    border-bottom: 2px solid #f0f2f3;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+.wccsp-contact {
+    margin-bottom: 75px;
+    background-color: rgba(255, 255, 255, .7);
+    padding: 10px;
+}
+
 .jetpack_subscription_widget button {
 	white-space: nowrap;
 }
