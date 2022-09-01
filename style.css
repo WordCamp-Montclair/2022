@@ -160,7 +160,7 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 	border-top: 10px solid #CC5A40;
 }
 
-.primary-menu > li:last-child a {
+/*.primary-menu > li:last-child a {
 	background: #CC5A40;
 	color: #ffffff !important;
 	padding: 10px 20px 10px 45px;
@@ -176,7 +176,7 @@ button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-fi
 	z-index: 1;
 	left: 20px;
 	color: #ffffff;
-}
+}*/
 
 .grunion-field-wrap {
 	background-color: #eee;
